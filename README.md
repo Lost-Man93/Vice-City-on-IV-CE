@@ -1,4 +1,4 @@
-# Vice City Actual Next Gen CE — Build 287 (Litter & Menu Improvements)
+# Vice City Actual Next Gen CE
 
 **Play Grand Theft Auto: Vice City inside Grand Theft Auto IV.** Tommy Vercetti's story and the whole neon-lit 1986 city, rebuilt with GTA IV's lighting, physics and Euphoria animation, HD artwork, extra islands, the classic side activities and restored dialogue. It comes as one download that you copy into your own copy of **GTA IV: The Complete Edition**.
 
