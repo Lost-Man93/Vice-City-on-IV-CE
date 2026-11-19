@@ -6,7 +6,7 @@
 
 - [What this is](#what-this-is)
 - [What this package does](#what-this-package-does)
-- [Vice City Advanced Next Gen 8.0](#vice-city-advanced-next-gen-80)
+- [Vice City Actual Next Gen 8.0](#vice-city-actual-next-gen-80)
 - [64-bit rendering, explained](#64-bit-rendering-explained)
 - [What you need](#what-you-need)
 - [Installation, step by step](#installation-step-by-step)
@@ -49,9 +49,9 @@ You download one archive, extract it and copy its contents into your GTA IV fold
 - **A separate 64-bit graphics process** draws the game through DXVK and Vulkan, with automatic DLSS, FSR or XeSS. GTA IV itself stays a 32-bit program.
 - **One package, set up together.** Every file is listed with a checksum. Windows, Linux and Steam Deck instructions are below.
 
-## Vice City Advanced Next Gen 8.0
+## Vice City Actual Next Gen 8.0
 
-Several Vice City projects for GTA IV exist, and their names are easy to mix up. This section compares **Advanced Vice City Next Gen CE** (this package) with **Vice City Advanced Next Gen 8.0**, the community project by **GTATrilogyGames**. That author's published name for it is **Grand Theft Auto Vice City: The Actual NextGen Edition v8.0**. The page and the v8.0 post are here:
+Several Vice City projects for GTA IV exist, and their names are easy to mix up. This section compares **Advanced Vice City Next Gen CE** (this package) with **Vice City Actual Next Gen 8.0** by **GTATrilogyGames**. Their release is titled **Grand Theft Auto Vice City: The Actual NextGen Edition v8.0**. The page and the v8.0 post are here:
 
 - [GTAForums thread](https://gtaforums.com/topic/1002512-grand-theft-auto-vice-city-actual-nextgen-edition/), feature list updated when v8.0 was announced
 - [GitHub](https://github.com/GTATrilogyGames/ViceCityActualNextGenEditionModpack)
@@ -69,7 +69,7 @@ The comparison is as fair as the public record allows. 8.0's author wrote that t
 
 ### What this package includes that 8.0 does not publish
 
-| Feature | Vice City Advanced Next Gen 8.0 | Advanced Vice City Next Gen CE |
+| Feature | Vice City Actual Next Gen 8.0 | Advanced Vice City Next Gen CE |
 |---|---|---|
 | Game version | Distributed for the older **1.0.8.0** game, which means a downgrade and Games for Windows Live on a Complete Edition install | **Complete Edition 1.2.0.59**. You keep the `GTAIV.exe` from that install. The mod does not replace it, and it does not ask for a downgrade |
 | Script platform | .NET script mods and ScriptHook .NET | Native scripts and native plugins. No .NET runtime and no ScriptHook .NET |
@@ -85,7 +85,7 @@ The comparison is as fair as the public record allows. 8.0's author wrote that t
 
 ### What both include, and what this package does differently
 
-| Feature | Vice City Advanced Next Gen 8.0 | Advanced Vice City Next Gen CE |
+| Feature | Vice City Actual Next Gen 8.0 | Advanced Vice City Next Gen CE |
 |---|---|---|
 | Look of the city | Published aim: PS2-like timecycle, and Ocean View Hotel lighting matched to the original Vice City. Their November 2026 rework is newer and larger than the art this package carries | Miami colour, Mint ocean water, Project Thunder storms, FusionFix, and the 64-bit host. Furnished mall interiors, mainland neon, Gator Keys night lights and a cleaner pause map from 8.0 material are included. This package does not claim a PS2-matched timecycle or a pixel match of the original Ocean View lighting |
 | Wanted, death and flying music | Published as ported GTA V flying and wanted music, plus GTA IV death music | Native music plugin. Chase music starts at three wanted stars. Death music plays on death or at 10% health. Flying music is included and turned off until you enable it |
