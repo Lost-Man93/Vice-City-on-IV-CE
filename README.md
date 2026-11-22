@@ -2,7 +2,7 @@
 
 **Play Grand Theft Auto: Vice City inside Grand Theft Auto IV.** Tommy Vercetti's story and the whole neon-lit 1986 city, rebuilt with GTA IV's lighting, physics and Euphoria animation, HD artwork, extra islands, the classic side activities and restored dialogue. It comes as one download that you copy into your own copy of **GTA IV: The Complete Edition**.
 
-**Complete mod package** · for **GTA IV: The Complete Edition 1.2.0.59** · download **AVCNGCE.zip** from [Releases](https://github.com/dillonherring9/gta-iv-modern-ryzen-apu-config/releases/latest)
+**Complete mod package** · for **GTA IV: The Complete Edition 1.2.0.59** · download **AVCNGCEFinal.zip** from [Releases](https://github.com/dillonherring9/gta-iv-modern-ryzen-apu-config/releases/latest)
 
 - [What this is](#what-this-is)
 - [What this package does](#what-this-package-does)
@@ -42,7 +42,7 @@ You download one archive, extract it and copy its contents into your GTA IV fold
 - **It runs on the GTA IV you already own.** It's built for the current Complete Edition, 1.2.0.59. You don't downgrade the game, swap its executable or install Games for Windows Live.
 - **Gameplay is native.** The activities, menu, weather, music and controller support are native game scripts and plugins. ScriptHook .NET and the .NET runtime aren't needed, and they aren't included.
 - **Vice City's side content is in.** The rampages, hidden packages, business income, shop hold-ups, food counters, insane stunt bonuses, completion percentage and the full Vice City statistics page are native scripts.
-- **The city is populated like 1986 Vice City.** Each district has the pedestrians, traffic and parked cars of the 2002 game. Tommy can walk into Ken Rosenberg's office, and the original-style street lamps light the streets at night.
+- **The city is populated like 1986 Vice City.** Each district has the pedestrians, traffic and parked cars of the 2002 game, and the gangs hold their 2002 turf, which changes as the story moves on. Tommy can walk into Ken Rosenberg's office, and the original-style street lamps light the streets at night.
 - **More of the original dialogue.** 62 original mission lines that the conversion was missing are restored across 13 missions, with subtitles in seven languages.
 - **Vehicles handle like what they are.** Each car is tuned toward the real vehicle its model represents, so a Countach-style Infernus and a Humvee-style Patriot drive very differently.
 - **Native DualSense support:** adaptive triggers, haptics, sound from the controller speaker and a light bar that tracks health and police. DS4Windows and Steam Input aren't needed.
@@ -91,14 +91,14 @@ The comparison is as fair as the public record allows. 8.0's author wrote that t
 | Wanted, death and flying music | Published as ported GTA V flying and wanted music, plus GTA IV death music | Native music plugin. Chase music starts at three wanted stars. Death music plays on death or at 10% health. Flying music is included and turned off until you enable it |
 | Health recovery | Published as GTA V health regeneration | Below 25% health, three quiet seconds start a recovery of 1% per second, up to 25%. Cutscenes start and end at full health. That is a narrower rule than GTA V regeneration |
 | Parachute | Part of 8.0, using The Ballad of Gay Tony assets | The same kind of Gay Tony canopy, pack, animation and sound, wired natively. Any seat of a full-size plane or helicopter gives Tommy the pack, and he can still fire guns while wearing it |
-| Handling | Published as GTA V-style handling, plus fixes for odd vehicle size and animation | Each vehicle is tuned toward the real machine its model represents: weight, power, gears, drive layout, brakes and balance. Tommy is 92 kg. Odd-job timers are longer to suit that handling |
-| Weapons and combat | Published as original Vice City behaviour and sound, tougher cops and enemies, rebalanced fist fighting, and glass that bullets pass through | Twenty guns tuned for damage, fire rate, magazine and range. Rifles pierce armour. Thirteen weapons have their own sounds. Army and MMA melee moves are included. Glass penetration and their cop-accuracy overhaul are not features of this package |
+| Handling | Published as GTA V-style handling, plus fixes for odd vehicle size and animation | Each vehicle is tuned toward the real machine its model represents: weight, power, gears, drive layout, brakes and balance. Tommy is 92 kg. Vehicles are scaled to the real length of what they represent. Odd-job, mission and rampage timers are longer to suit that handling |
+| Weapons and combat | Published as original Vice City behaviour and sound, tougher cops and enemies, rebalanced fist fighting, and glass that bullets pass through | Twenty guns tuned toward the real firearms they represent: damage, fire rate, magazine and range. Shotguns fire pellets. Rifles pierce armour. Thirteen weapons have their own sounds. Army and MMA melee moves are included. Glass penetration and their cop-accuracy overhaul are not features of this package |
 | HUD | Published as a full interface rework toward the original, including wasted, busted and mission text | CyanFire's classic Vice City HUD, reimplemented as a native script: clock, rolling money, flashing health and armour, weapon and ammo, six stars, pink radar ring |
 | Activities and statistics | Restored Vice City side content is part of the shared modpack | Rebuilt natively: 35 rampages, hidden packages, business income, pizza throws, 12 shop hold-ups, food counters, the shooting range, stunt bonuses, and completion out of 154 |
 | Dialogue | Their showcases describe restored monologues, mission lines and a Lance who fights and calls for help | 62 restored lines across 13 named missions, a Cortez call after the Diaz missions, and original voices for food counters, Leaf Links, Hotring, Pole Position and the Cherry Popper purchase. This package does not include their Lance combat rewrite |
 | Rain and blood on the lens | Restored water and blood drops | Fusion Rain Droplets, configured for water only |
 | Tyre sound | Original Vice City tyre skid, as published | Road skid from mmtsrn1's BeamNG Sound Mod V2, adapted to the controller audio as well |
-| Menu | Their own quality-of-life options and a separate optionals pack | F7 menu. Vehicles are alphabetical inside Cars, Bikes, Helicopters and Planes, and Boats. Weapons, objects and animations are alphabetical under their commands |
+| Menu | Their own quality-of-life options and a separate optionals pack | F7 menu in pink and black. Every list is alphabetical under its commands: vehicles, weapons, teleports, clothes, objects, animations and the character list |
 | Street lighting | Night-time map lighting is part of their published map work | Original-style lamps from the 2002 map, FusionFix distant lights, and the Liberty City distance cutoff turned off so Vice City's southern lamps still draw |
 
 ### What 8.0 publishes that this package does not do
@@ -146,7 +146,7 @@ Frame rate depends on your CPU, GPU, resolution and graphics settings.
 ## What you need
 
 - **GTA IV: The Complete Edition, version 1.2.0.59**, from Steam or the Rockstar Games Launcher. Let it update fully. To check the version on Windows, right-click `GTAIV.exe`, choose **Properties → Details** and look for **File version 1.2.0.59**.
-- **Disk space:** allow about **10 GB** for the download and **10 GB** for the extracted mod. Keep about **30 GB** free while installing, in addition to the base game and your backups. Joining split parts creates another copy of the download, so allow extra space if you use that method.
+- **Disk space:** allow about **9 GB** for the download and **9 GB** for the extracted mod. Keep about **30 GB** free while installing, in addition to the base game and your backups. Joining split parts creates another copy of the download, so allow extra space if you use that method.
 - **A 64-bit operating system and a recent graphics driver compatible with DXVK 3.x.** A Vulkan 1.3-capable GPU is required, with the extensions used by the bundled DXVK. See [DXVK driver support](https://github.com/doitsujin/dxvk/wiki/Driver-support). Vulkan 1.3 support alone is not a compatibility guarantee.
 - **7-Zip** to extract the download: [7-zip.org](https://www.7-zip.org/) on Windows. On Linux and Steam Deck you can use the commands in step 3 instead.
 - **Windows:** install both the [Microsoft Visual C++ Redistributable **x86 and x64**](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist/). The game-side plugins need x86. The 64-bit upscaler dependencies need x64.
@@ -165,25 +165,25 @@ Frame rate depends on your CPU, GPU, resolution and graphics settings.
 ### 2. Download
 
 1. Open the [latest release](https://github.com/dillonherring9/gta-iv-modern-ryzen-apu-config/releases/latest) and scroll down to **Assets**.
-2. Download **every part**, `AVCNGCE.zip.001` through `AVCNGCE.zip.006`, into the **same folder**. Don't rename them. Together they form one ZIP file. None of them works alone.
+2. Download **every part**, `AVCNGCEFinal.zip.001` through `AVCNGCEFinal.zip.005`, into the **same folder**. Don't rename them. Together they form one ZIP file. None of them works alone.
 3. Don't download **Source code (zip)** or **Source code (tar.gz)**. GitHub adds those automatically, and they don't contain the game files. The authored source for this package is the separate `source.zip` asset, described under [Source code](#source-code).
 
-If someone gave you the single full **AVCNGCE.zip** instead, use that file and skip the parts.
+If someone gave you the single full **AVCNGCEFinal.zip** instead, use that file and skip the parts.
 
 ### 3. Extract
 
-**Windows:** install 7-Zip. Right-click `AVCNGCE.zip.001` and choose **7-Zip → Extract files…** (on Windows 11, choose **Show more options** first). Choose a new empty folder, for example `C:\AVCNGCE`, and click **OK**. 7-Zip reads all six parts by itself. Only open `.001`. Windows' built-in ZIP tool can't open split archives.
+**Windows:** install 7-Zip. Right-click `AVCNGCEFinal.zip.001` and choose **7-Zip → Extract files…** (on Windows 11, choose **Show more options** first). Choose a new empty folder, for example `C:\AVCNGCE`, and click **OK**. 7-Zip reads all five parts by itself. Only open `.001`. Windows' built-in ZIP tool can't open split archives.
 
 **Linux or Steam Deck:** open a terminal in the download folder. On Steam Deck, use **Konsole** in Desktop Mode. If 7-Zip is installed:
 
 ```sh
-7z x AVCNGCE.zip.001 -oAVCNGCE
+7z x AVCNGCEFinal.zip.001 -oAVCNGCE
 ```
 
 If your installed command is `7zz`, use that instead of `7z`. Without 7-Zip, join the parts into the full ZIP and extract that with an archive tool such as Ark:
 
 ```sh
-cat AVCNGCE.zip.00[1-6] > AVCNGCE.zip
+cat AVCNGCEFinal.zip.00[1-5] > AVCNGCEFinal.zip
 ```
 
 Either way, you get a folder named **`release`**. It contains `update`, `plugins`, `DLSSIV`, several loose files, `README.md` and `CREDITS.md`.
@@ -217,9 +217,9 @@ This tells Proton to load the mod's loader. In Lutris, add the DLL override `din
 
 1. Start the game normally.
 2. In **Settings → Display**, leave **Graphics API** on **Vulkan** and set **Anti-aliasing** to **Off**. The supplied renderer and upscaler start automatically. Use your monitor's normal resolution. The upscaler can render the scene internally at a lower resolution.
-3. Choose **New Game**. A new game starts the activities, statistics and parked cars from their intended beginning. A save made with this package can be loaded too. See [Saves](#saves).
+3. Choose **New Game**. A new game starts the activities, statistics and gang territories from their intended beginning. A save made with this package can be loaded too. See [Saves](#saves).
 
-**Optional, checking the download:** `PARTS-SHA256SUMS.txt` lists the checksum of each part, and `AVCNGCE.zip.sha256` lists the checksum of the full ZIP. Inside `release`, `SHA256SUMS.txt` lists every mod file. On Linux, run `sha256sum -c SHA256SUMS.txt` in that folder.
+**Optional, checking the download:** `PARTS-SHA256SUMS.txt` lists the checksum of each part, and `AVCNGCEFinal.zip.sha256` lists the checksum of the full ZIP. Inside `release`, `SHA256SUMS.txt` lists every mod file. On Linux, run `sha256sum -c SHA256SUMS.txt` in that folder.
 
 ### If this folder already contains mods
 
@@ -246,7 +246,7 @@ GTA IV's normal controls apply. The mod adds these:
 
 | Input | Action |
 |---|---|
-| **F7**, or **LB + D-pad right** | Open the Vice City Menu (D-pad up also opens it) |
+| **F7**, or **LB + D-pad right** | Open the Vice City Menu (D-pad down also opens it) |
 | Arrow keys, numpad or D-pad | Move through the menu |
 | **Enter** / **A** · **Backspace** / **B** | Select · go back |
 | **Ctrl+F7** | Project Thunder weather menu |
@@ -277,7 +277,8 @@ The full Vice City story runs in GTA IV's engine. The Everglades and Gator Keys 
 - **Tutorials when you need them,** for wanted levels, hospital and police-station recovery, bribes, motorcycle balance, hotwiring and resisting disarm. The prompts show your own controls.
 - **Pole Position:** varied pole and table routines, two floor dancers, and private lap dances with GTA IV animations and cameras. The rear curtain pole is empty. Buying the club, paying dancers and the club's income work as in Vice City.
 - **Clubs react to violence.** Shooting or fighting in the Malibu or Pole Position stops the dancers, and the crowd flees or cowers.
-- **Story-based wanted limits,** and the army arrives at six stars.
+- **Gang territories follow the story,** as in 2002. Diaz's men guard the mansion until **Rub Out**, then Vercetti's gang moves in, and every business you buy fills with Vercetti men. The Cuban and Haitian streets change with their war. Streetwannabes, bikers, golfers and security guards hold their 2002 areas.
+- **Wanted levels work like the 2002 game.** From two stars the police keep searching, so the stars don't fade while you hide. Lose them at a Pay 'n' Spray, with a bribe, or by changing clothes outside a mission. Police don't appear on the radar. From three stars, Vice Squad Cheetahs with plain-clothes officers join the chase. Story-based limits cap the stars, and the army arrives at six.
 
 Pickups keep Vice City's familiar shapes: the adrenaline pill, rampage skull, business money, save cassettes and green and red property icons. Health uses GTA IV's green first-aid kit.
 
@@ -290,6 +291,8 @@ Pickups keep Vice City's familiar shapes: the adrenaline pill, rampage skull, bu
 - **From the 8.0 modpack's material carried here:** furnished mall interiors, corrected mainland neon, night accent lights in Gator Keys and a cleaner pause-menu map.
 - **Reworked beaches and ground:** dry sand with fine grain on the Atlantic beaches and Gator Keys, mapped so the main beach looks continuous from the ground and from the air. Mismatched grass, coastal paths and airport paving are corrected.
 - **An airport seaplane dock** you can reach by the stairs or by boat.
+- **More of the 2002 map:** palms, benches, tables, club and stadium pieces and the furniture of the lawyer's office, placed where the original game had them and solid where you'd expect.
+- **Parked vehicles follow the story,** as in 2002: Diaz's boats after **Phnom Penh '86**, the mansion helicopter after **Rub Out**, the Love Fist limo after **Publicity Tour**, the Boatyard's boats once you buy it, the Sunshine Autos prize cars as you finish each import list, and the Sea Sparrow, Rhino and Hunter at 80, 90 and 100 hidden packages. The mall and Washington Beach car parks have parked cars, and a yacht lies at anchor off the Ocean Beach marina.
 - **Original-style street lamps,** placed from the 2002 map, that break when hit and light the streets at night. Distant lights include those Vice City lamps. A Liberty City rule that dropped lamps beyond 300 metres is turned off, so lamps in the south of the city still draw. Palm and tree trunks are solid, while bushes, hedges and ferns can be walked through.
 - **Windblown street litter.** All four original Vice City flying-litter images join suitable GTA IV paper, packets and leaves. Paper appears around roads and paving. Leaves appear near supported broadleaf trees. Movement uses the game's weather wind, and it checks for interiors, water, flight and cutscenes.
 
@@ -299,21 +302,23 @@ Pickups keep Vice City's familiar shapes: the adrenaline pill, rampage skull, bu
 - **Heavy and old vehicles feel heavy and old.** Cruisers, vans and trucks are slower and weightier than supercars.
 - **Boats, helicopters, planes and RC vehicles** have their own weight and handling. The RC Bandit drives like a large RC buggy.
 - **People and objects have realistic weights.** Tommy weighs 92 kg (203 lb). Street furniture, bins, bags, benches, signs, hydrants and glass have matching weights.
-- **More time for odd jobs.** Paramedic, Firefighter, Vigilante, Pizza Boy, Taxi and Bloodring timers allow for the more realistic handling.
+- **Real-size vehicles.** 118 cars, bikes, boats and aircraft are scaled to the real length of the machine they represent, with suspension and cameras to match. Boats that appear in cutscenes keep the size those scenes were made for.
+- **Two more vehicles:** a second Hustler and an alternate Tropic, in traffic, in parking spots and in the F7 menu.
+- **More time for odd jobs.** Paramedic, Firefighter, Vigilante, Pizza Boy, Taxi and Bloodring timers allow for the more realistic handling. Mission and rampage timers have 45 extra seconds.
 - **Seaplanes work on water.** The Skimmer floats, idles and takes off from water, and the Sea Sparrow can land on it. You can't drown while seated in either.
 - **The Rhino is indestructible.** Nothing damages it, its tyres can't burst and it doesn't dent. That includes the army's tanks.
 - **Rhino tank shells explode.** In **Phnom Penh '86** the helicopters, and in **Supply & Demand** the boat, have double health and explode when their health runs out.
 - **A wearable parachute.** Get into any full-size plane or helicopter, in any seat, and Tommy puts on a parachute pack. He can still hold and fire guns while wearing it. Jump, press **Sprint** to open the canopy, steer with the movement controls and press **Enter Vehicle** to cut away. The canopy, pack, animations, landing and sounds come from *The Ballad of Gay Tony*.
-- **The 1978 Ford Fairmont police car,** restored weapons and animations, and 20 guns tuned for damage, fire rate, magazine size and range. Rifles pierce armour.
+- **The 1978 Ford Fairmont police car,** restored weapons and animations, and 20 guns tuned toward the real firearms they represent: damage, fire rate, magazine size and range. Shotguns fire pellets, and rifles pierce armour.
 - **Motorcycle helmets.** Tommy puts on a helmet when he gets on a motorcycle and takes it off when he gets off.
-- **Euphoria for everyone,** with GTA IV's normal player ragdoll and Army and MMA melee moves.
+- **Euphoria for everyone,** with GTA IV's normal player ragdoll and Army and MMA melee moves. People react to gunshots and stumbles more like real people, and Tommy holds up better in long falls.
 - **Injured movement.** The injured upper-body walk is a registered movement group, so those injured clips can stream.
 
 ### HUD, menu and cutscenes
 
 - **The classic Vice City HUD,** rebuilt as a native script: clock, rolling eight-digit money, health and armour that flash when hit, weapon icon, reserve and clip ammo, six wanted stars and the pink radar ring. It adapts to your screen's aspect ratio.
 - **The HUD hides when it should:** in cutscenes, fades, the Pay 'n' Spray and the wasted and busted screens, and when you turn it off in the game settings. The F7 menu adds **Hide HUD** and **No HUD in Cinematic Camera**.
-- **The F7 Vice City Menu** lets you save outside missions, skip radio tracks, holster weapons and change gameplay options. Inside a category, the list is alphabetical. Back stays last.
+- **The F7 Vice City Menu** lets you save outside missions, skip radio tracks, holster weapons and change gameplay options. In every submenu its commands come first, then the list A to Z, with Back last. The menu has a pink and black Vice City look.
 - **Your outfit carries into cutscenes.** Standard outfits switch to matching high-detail Tommy models in cutscenes, including the wounded versions. That includes the blue Soiree suit. Custom outfits use the default cutscene look.
 - **Health between fights:** cutscenes start and end with full health. Below 25% health, three seconds without taking damage starts a recovery of 1% per second, up to 25%. Any hit pauses it.
 
@@ -340,6 +345,7 @@ Native PlayStation 5 DualSense support, built into the game. DS4Windows, ViGEm a
 ### Graphics
 
 - **HD vehicles** from Proper HD Era Vehicles, with detailed textures, badges and logos.
+- **Photoreal textures:** about 5,800 Vice City textures have had a photoreal colour pass, with lettering kept sharp.
 - **HD characters and world:** Tommy, cutscene characters, pedestrians in 1980s clothing, props, vegetation, roads and buildings, and improved interiors.
 - **Atmosphere:** turquoise ocean and pools, Mint ocean water, a Miami sky and colour grading, Project Thunder lightning and storms, and water droplets on the camera. Getting shot does not add the rain plugin's screen blood. Blood on the ground stays.
 - **Distant lights** at night: streetlights, traffic and lamp glows across Vice City, including the southern lamps. Turn them on in **Settings → Display → Distant Lights**.
@@ -379,15 +385,15 @@ Play the mod as supplied first. If you add other mods later, back up a working c
 
 ## Saves
 
-Save at a safehouse, or anywhere outside a mission with **F7 → Gameplay Tweaks → Save Game Now**. Saves are stored in `Documents\Rockstar Games\GTA IV\Profiles\`. With Proton, that folder is inside the game's Proton prefix. A save keeps the parked cars it was created with.
+Save at a safehouse, or anywhere outside a mission with **F7 → Gameplay Tweaks → Save Game Now**. Saves are stored in `Documents\Rockstar Games\GTA IV\Profiles\`. With Proton, that folder is inside the game's Proton prefix. Gang territories are stored in the save, so start a **New Game** to get them. An older save keeps the territories it was made with. Parked vehicles follow the installed files and work with any save made with this package.
 
-The radio-station list has ten stations, including Independence FM. That count is part of the save size, so this package leaves it alone. A save made with this package keeps that layout and its parked cars. Saves from a different Vice City conversion, or from unmodded GTA IV, are not interchangeable with this package.
+The radio-station list has ten stations, including Independence FM. That count is part of the save size, so this package leaves it alone. A save made with this package keeps that layout. Saves from a different Vice City conversion, or from unmodded GTA IV, are not interchangeable with this package.
 
 Back up `Profiles` before you install, and keep the backup outside the game folder.
 
 ## Troubleshooting
 
-- **7-Zip says a volume is missing or the archive is corrupt.** Confirm that `AVCNGCE.zip.001` through `.006` are together, with their exact original names. Check `PARTS-SHA256SUMS.txt` and download a failing part again. Extract only from `.001`.
+- **7-Zip says a volume is missing or the archive is corrupt.** Confirm that `AVCNGCEFinal.zip.001` through `.005` are together, with their exact original names. Check `PARTS-SHA256SUMS.txt` and download a failing part again. Extract only from `.001`.
 - **The game starts as normal GTA IV in Liberty City.** Check that `GTAIV.exe`, `dinput8.dll`, `update` and `plugins` are together. On Proton, use the launch option in step 6. Do not leave the files inside an extra `release` folder.
 - **Only a tiny IV icon appears during startup.** Use the complete matching renderer pair, save the logs, and note whether the same installation gets past that point in Desktop Mode or Lutris.
 - **The game closes or cannot start.** Start with a clean CE 1.2.0.59 installation, the complete matching package and current GPU drivers. On Windows, install both the x86 and x64 Visual C++ Redistributables. Remove the four old standalone plugins named in the install section if they are present. `plugins/GTAIV.XboxRainDroplets.asi` must not be installed beside Fusion Rain Droplets. The Fusion rain plugin closes the game if the older rain plugin is still there. A 32-bit operating system cannot run the host.
@@ -404,7 +410,7 @@ The simplest way is to uninstall GTA IV, delete what's left of its folder and re
 
 ## Source code
 
-The authored source for this package is `source.zip`, attached beside the game parts. Extract it and read `Source/BUILDING.md` and `Source/AVCNGCE.md`. The game scripts, native plugins and renderer sources are under `Source/`. Textures, models and sound are in the six `AVCNGCE.zip` parts, with their creator credits.
+The authored source for this package is `source.zip`, attached beside the game parts. Extract it and read `Source/README.md` and `Source/BUILDING.md`. The game scripts, native plugins and renderer sources are under `Source/`. Textures, models and sound are in the five `AVCNGCEFinal.zip` parts, with their creator credits.
 
 GitHub's automatic **Source code (zip)** and **Source code (tar.gz)** buttons download the repository, not this package and not `source.zip`.
 
