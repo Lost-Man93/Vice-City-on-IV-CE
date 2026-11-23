@@ -2,7 +2,7 @@
 
 **Play Grand Theft Auto: Vice City inside Grand Theft Auto IV.** Tommy Vercetti's story and the whole neon-lit 1986 city, rebuilt with GTA IV's lighting, physics and Euphoria animation, HD artwork, extra islands, the classic side activities and restored dialogue. It comes as one download that you copy into your own copy of **GTA IV: The Complete Edition**.
 
-**Complete mod package** · for **GTA IV: The Complete Edition 1.2.0.59** · download **AVCNGCEFinal.zip** from [Releases](https://github.com/dillonherring9/gta-iv-modern-ryzen-apu-config/releases/latest)
+**Complete mod package** · for **GTA IV: The Complete Edition 1.2.0.59** · download **AVCNGCE1123.zip** from [Releases](https://github.com/dillonherring9/gta-iv-modern-ryzen-apu-config/releases/latest)
 
 - [What this is](#what-this-is)
 - [What this package does](#what-this-package-does)
@@ -165,25 +165,25 @@ Frame rate depends on your CPU, GPU, resolution and graphics settings.
 ### 2. Download
 
 1. Open the [latest release](https://github.com/dillonherring9/gta-iv-modern-ryzen-apu-config/releases/latest) and scroll down to **Assets**.
-2. Download **every part**, `AVCNGCEFinal.zip.001` through `AVCNGCEFinal.zip.005`, into the **same folder**. Don't rename them. Together they form one ZIP file. None of them works alone.
+2. Download **every part**, `AVCNGCE1123.zip.001` through `AVCNGCE1123.zip.005`, into the **same folder**. Don't rename them. Together they form one ZIP file. None of them works alone.
 3. Don't download **Source code (zip)** or **Source code (tar.gz)**. GitHub adds those automatically, and they don't contain the game files. The authored source for this package is the separate `source.zip` asset, described under [Source code](#source-code).
 
-If someone gave you the single full **AVCNGCEFinal.zip** instead, use that file and skip the parts.
+If someone gave you the single full **AVCNGCE1123.zip** instead, use that file and skip the parts.
 
 ### 3. Extract
 
-**Windows:** install 7-Zip. Right-click `AVCNGCEFinal.zip.001` and choose **7-Zip → Extract files…** (on Windows 11, choose **Show more options** first). Choose a new empty folder, for example `C:\AVCNGCE`, and click **OK**. 7-Zip reads all five parts by itself. Only open `.001`. Windows' built-in ZIP tool can't open split archives.
+**Windows:** install 7-Zip. Right-click `AVCNGCE1123.zip.001` and choose **7-Zip → Extract files…** (on Windows 11, choose **Show more options** first). Choose a new empty folder, for example `C:\AVCNGCE`, and click **OK**. 7-Zip reads all five parts by itself. Only open `.001`. Windows' built-in ZIP tool can't open split archives.
 
 **Linux or Steam Deck:** open a terminal in the download folder. On Steam Deck, use **Konsole** in Desktop Mode. If 7-Zip is installed:
 
 ```sh
-7z x AVCNGCEFinal.zip.001 -oAVCNGCE
+7z x AVCNGCE1123.zip.001 -oAVCNGCE
 ```
 
 If your installed command is `7zz`, use that instead of `7z`. Without 7-Zip, join the parts into the full ZIP and extract that with an archive tool such as Ark:
 
 ```sh
-cat AVCNGCEFinal.zip.00[1-5] > AVCNGCEFinal.zip
+cat AVCNGCE1123.zip.00[1-5] > AVCNGCE1123.zip
 ```
 
 Either way, you get a folder named **`release`**. It contains `update`, `plugins`, `DLSSIV`, several loose files, `README.md` and `CREDITS.md`.
@@ -219,7 +219,7 @@ This tells Proton to load the mod's loader. In Lutris, add the DLL override `din
 2. In **Settings → Display**, leave **Graphics API** on **Vulkan** and set **Anti-aliasing** to **Off**. The supplied renderer and upscaler start automatically. Use your monitor's normal resolution. The upscaler can render the scene internally at a lower resolution.
 3. Choose **New Game**. A new game starts the activities, statistics and gang territories from their intended beginning. A save made with this package can be loaded too. See [Saves](#saves).
 
-**Optional, checking the download:** `PARTS-SHA256SUMS.txt` lists the checksum of each part, and `AVCNGCEFinal.zip.sha256` lists the checksum of the full ZIP. Inside `release`, `SHA256SUMS.txt` lists every mod file. On Linux, run `sha256sum -c SHA256SUMS.txt` in that folder.
+**Optional, checking the download:** `PARTS-SHA256SUMS.txt` lists the checksum of each part, and `AVCNGCE1123.zip.sha256` lists the checksum of the full ZIP. Inside `release`, `SHA256SUMS.txt` lists every mod file. On Linux, run `sha256sum -c SHA256SUMS.txt` in that folder.
 
 ### If this folder already contains mods
 
@@ -277,14 +277,14 @@ The full Vice City story runs in GTA IV's engine. The Everglades and Gator Keys 
 - **Tutorials when you need them,** for wanted levels, hospital and police-station recovery, bribes, motorcycle balance, hotwiring and resisting disarm. The prompts show your own controls.
 - **Pole Position:** varied pole and table routines, two floor dancers, and private lap dances with GTA IV animations and cameras. The rear curtain pole is empty. Buying the club, paying dancers and the club's income work as in Vice City.
 - **Clubs react to violence.** Shooting or fighting in the Malibu or Pole Position stops the dancers, and the crowd flees or cowers.
-- **Gang territories follow the story,** as in 2002. Diaz's men guard the mansion until **Rub Out**, then Vercetti's gang moves in, and every business you buy fills with Vercetti men. The Cuban and Haitian streets change with their war. Streetwannabes, bikers, golfers and security guards hold their 2002 areas.
+- **Gang territories follow the story,** as in 2002. Diaz's men guard the mansion until **Rub Out**, then Vercetti's gang moves in, and every business you buy fills with Vercetti men. The Cuban and Haitian streets change with their war. Streetwannabes, bikers, golfers and security guards hold their 2002 areas. The bikers wear the Vice City leather vests and skull tees of the cutscene bikers, and the army wears 1986 woodland camouflage.
 - **Wanted levels work like the 2002 game.** From two stars the police keep searching, so the stars don't fade while you hide. Lose them at a Pay 'n' Spray, with a bribe, or by changing clothes outside a mission. Police don't appear on the radar. From three stars, Vice Squad Cheetahs with plain-clothes officers join the chase. Story-based limits cap the stars, and the army arrives at six.
 
 Pickups keep Vice City's familiar shapes: the adrenaline pill, rampage skull, business money, save cassettes and green and red property icons. Health uses GTA IV's green first-aid kit.
 
 ### The city
 
-- **Districts populated as in the 2002 game:** Cubans in Little Havana, Haitians in Little Haiti, bikers Downtown, soldiers at the army base, workers at the airport and docks, and golfers in caddies at Leaf Links. Day and night have their own mixes.
+- **Districts populated as in the 2002 game:** Cubans in Little Havana, Haitians in Little Haiti, bikers Downtown, soldiers at the army base, workers at the airport and docks, and golfers in caddies at Leaf Links. Day and night have their own mixes, and people appear on the same sidewalks as in the 2002 game, including the North Point Mall.
 - **Classic traffic and boats,** with cheap and expensive cars in the right districts. Parked cars use the original locations and models. Added vehicles have sensible spots too: the Biplane at the airport, the Armadillo on a Downtown rooftop pad, Hotring cars by the stadium and the RC Baron beside the RC race van. Mission and reward vehicles appear where their missions put them.
 - **Ken Rosenberg's office** in Washington Beach can be entered in free roam, with its corridors, stairwell and HD interior.
 - **Upgraded locations:** the Vercetti mansion inside and out, Ocean View Hotel room 317, the Malibu Club, the V-Rock building, Phil's place, the junkyard, the airport access road, the Little Havana coast road, Leaf Links walls and hedges, and 1980s street details.
@@ -304,7 +304,7 @@ Pickups keep Vice City's familiar shapes: the adrenaline pill, rampage skull, bu
 - **People and objects have realistic weights.** Tommy weighs 92 kg (203 lb). Street furniture, bins, bags, benches, signs, hydrants and glass have matching weights.
 - **Real-size vehicles.** 118 cars, bikes, boats and aircraft are scaled to the real length of the machine they represent, with suspension and cameras to match. Boats that appear in cutscenes keep the size those scenes were made for.
 - **Two more vehicles:** a second Hustler and an alternate Tropic, in traffic, in parking spots and in the F7 menu.
-- **More time for odd jobs.** Paramedic, Firefighter, Vigilante, Pizza Boy, Taxi and Bloodring timers allow for the more realistic handling. Mission and rampage timers have 45 extra seconds.
+- **More time for odd jobs.** Paramedic, Firefighter, Vigilante, Pizza Boy, Taxi and Bloodring timers allow for the more realistic handling. Mission and rampage timers have 25 extra seconds.
 - **Seaplanes work on water.** The Skimmer floats, idles and takes off from water, and the Sea Sparrow can land on it. You can't drown while seated in either.
 - **The Rhino is indestructible.** Nothing damages it, its tyres can't burst and it doesn't dent. That includes the army's tanks.
 - **Rhino tank shells explode.** In **Phnom Penh '86** the helicopters, and in **Supply & Demand** the boat, have double health and explode when their health runs out.
@@ -346,6 +346,7 @@ Native PlayStation 5 DualSense support, built into the game. DS4Windows, ViGEm a
 
 - **HD vehicles** from Proper HD Era Vehicles, with detailed textures, badges and logos.
 - **Photoreal textures:** about 5,800 Vice City textures have had a photoreal colour pass, with lettering kept sharp.
+- **HD story characters:** Lance, Ken, Diaz, Sonny, the Colonel, Phil, Hilary, Cam, Mercedes, Candy, Love Fist and their crews have 2048 textures in missions. Gangs, bikers and street pedestrians have 1024x2048 bodies.
 - **HD characters and world:** Tommy, cutscene characters, pedestrians in 1980s clothing, props, vegetation, roads and buildings, and improved interiors.
 - **Atmosphere:** turquoise ocean and pools, Mint ocean water, a Miami sky and colour grading, Project Thunder lightning and storms, and water droplets on the camera. Getting shot does not add the rain plugin's screen blood. Blood on the ground stays.
 - **Distant lights** at night: streetlights, traffic and lamp glows across Vice City, including the southern lamps. Turn them on in **Settings → Display → Distant Lights**.
@@ -393,7 +394,7 @@ Back up `Profiles` before you install, and keep the backup outside the game fold
 
 ## Troubleshooting
 
-- **7-Zip says a volume is missing or the archive is corrupt.** Confirm that `AVCNGCEFinal.zip.001` through `.005` are together, with their exact original names. Check `PARTS-SHA256SUMS.txt` and download a failing part again. Extract only from `.001`.
+- **7-Zip says a volume is missing or the archive is corrupt.** Confirm that `AVCNGCE1123.zip.001` through `.005` are together, with their exact original names. Check `PARTS-SHA256SUMS.txt` and download a failing part again. Extract only from `.001`.
 - **The game starts as normal GTA IV in Liberty City.** Check that `GTAIV.exe`, `dinput8.dll`, `update` and `plugins` are together. On Proton, use the launch option in step 6. Do not leave the files inside an extra `release` folder.
 - **Only a tiny IV icon appears during startup.** Use the complete matching renderer pair, save the logs, and note whether the same installation gets past that point in Desktop Mode or Lutris.
 - **The game closes or cannot start.** Start with a clean CE 1.2.0.59 installation, the complete matching package and current GPU drivers. On Windows, install both the x86 and x64 Visual C++ Redistributables. Remove the four old standalone plugins named in the install section if they are present. `plugins/GTAIV.XboxRainDroplets.asi` must not be installed beside Fusion Rain Droplets. The Fusion rain plugin closes the game if the older rain plugin is still there. A 32-bit operating system cannot run the host.
@@ -410,7 +411,7 @@ The simplest way is to uninstall GTA IV, delete what's left of its folder and re
 
 ## Source code
 
-The authored source for this package is `source.zip`, attached beside the game parts. Extract it and read `Source/README.md` and `Source/BUILDING.md`. The game scripts, native plugins and renderer sources are under `Source/`. Textures, models and sound are in the five `AVCNGCEFinal.zip` parts, with their creator credits.
+The authored source for this package is `source.zip`, attached beside the game parts. Extract it and read `Source/README.md` and `Source/BUILDING.md`. The game scripts, native plugins and renderer sources are under `Source/`. Textures, models and sound are in the five `AVCNGCE1123.zip` parts, with their creator credits.
 
 GitHub's automatic **Source code (zip)** and **Source code (tar.gz)** buttons download the repository, not this package and not `source.zip`.
 
